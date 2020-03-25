@@ -1,4 +1,4 @@
-all: cgi-bin
+all: cubeEventServer
 
 cubeEventServer : eventPrincipale.o
 		g++ -lpthread -o cubeEventServer eventPrincipale.o
