@@ -101,9 +101,9 @@ int main(){
 			<<"\"temp4\":"
 			<<rand()%61<<","
 
-			//camera
+			//cameraIR
 			<<"\"cameraIR\":"
 			<<rand()%2
 
-     << "}"<<endl;		
+     << "}";		
 }
