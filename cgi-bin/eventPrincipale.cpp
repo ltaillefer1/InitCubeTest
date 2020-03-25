@@ -7,6 +7,7 @@ int main(){
 	int premiereValeurMagneto=(rand() % (4800 - (-4800) + 1)) - 4800;
 	int deuxiemeValeurMagneto=(rand() % (4800 - (-4800) + 1)) - 4800;
 	int troisiemeValeurMagneto=(rand() % (4800 - (-4800) + 1)) - 4800;
+	int number = 0;
 
 	cout << "Content-Type: text/event-stream\r\n\r\n";
 	cout << "Cache-Control: no-cache\r\n\r\n";
