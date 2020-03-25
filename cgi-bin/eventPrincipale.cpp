@@ -12,14 +12,14 @@ int main(){
 	cout << "Cache-Control: no-cache\r\n\r\n";
 
 	
-			cout << "Event: ACK\r\n\r\n";
+			/*cout << "Event: ACK\r\n\r\n";
 			cout << "data : "<<endl;
 		
 			cout << "Event: mesure\r\n\r\n";
 			cout << "data : "<<endl;			
 		
 			cout << "Event: status\r\n\r\n";
-			cout << "data : "<<endl;
+			cout << "data : "<<endl;*/
 
 			cout << "Event: etat\r\n\r\n";
 			cout << "data : " << "{\"stockage\": { "
