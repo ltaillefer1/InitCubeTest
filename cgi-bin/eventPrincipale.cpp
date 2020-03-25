@@ -21,7 +21,7 @@ int main(){
 			cout << "Event: status\r\n\r\n";
 			cout << "data : "<<endl;*/
 
-			cout << "event: etat";
+			cout << "event: etat\r\n\r\n";
 			cout << "data: " << "{\"stockage\": { "
 
 				// Stockage libre en Mo(Valeur comprise entre 0 et 100) 
@@ -105,5 +105,5 @@ int main(){
 			<<"\"cameraIR\":"
 			<<rand()%2
 
-     << "}"<<endl;;		
+     << "}"<<endl;		
 }
