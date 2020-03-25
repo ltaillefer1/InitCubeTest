@@ -13,11 +13,11 @@ int main(){
 	cout << "Cache-Control: no-cache\r\n\r\n";
 
 	
-			cout << "Event: ACK\r\n\r\n";
+			/*cout << "Event: ACK\r\n\r\n";
 			cout << "data : "<<endl;
 		
 			cout << "Event: mesure\r\n\r\n";
-			cout << "data : "<<endl;			
+			cout << "data : "<<endl;*/			
 		
 			cout << "event: matrice\r\n\r\n";
 			for (int i=0 ; i<10;i++)
