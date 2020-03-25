@@ -1,9 +1,11 @@
-all: cubeEventServer.cgi
+CFLAGS=-W -Wall -ansi -pedantic
 
-cubeEventServer : eventPrincipale.o
-		g++ -lpthread -o cubeEventServer eventPrincipale.o
+all: cubeEventServer
+
+cubeEventServer.cgi : eventPrincipale.o
+		g++ -lpthread -o cubeEventServer.cgi eventPrincipale.o $(CFLAGS)
 eventPrincipale.o : eventPrincipale.cpp
-		g++ -lpthread -o eventPrincipale.o -c eventPrincipale.cpp -W -Wall -ansi -pedantic
+		g++ -lpthread -o eventPrincipale.o -c eventPrincipale.cpp $(CFLAGS)
 clean : 
 		rm -rf *.o
 mrproper: clean
