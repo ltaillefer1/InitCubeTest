@@ -17,7 +17,7 @@ $( document ).ready(function(){      // lancé quand le DOM est initialisé (pr�
         	//document.getElementById("matrice").innerHTML = obj.matrice;
 		camera.setPixel(obj.matrice);
 		matrice.majMatrice();
-    		}, false);
+    		});
 
 	$("#slider-1").change(function () {
 		var value = $(this).slider().val();
