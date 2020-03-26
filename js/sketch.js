@@ -1,11 +1,11 @@
-var camera;
+var camerA;
 var matrice;
 
 function setup() {
     createCanvas(600, 600);
 
-    test = new CCamera();
-    matrice = new CMatrice2(camera);
+    camerA = new CCamera();
+    matrice = new CMatrice2(camerA);
 }
 
 function draw() {
