@@ -54,7 +54,7 @@ class Square {
       }
       if ((this.temp <= seuilInter1) && (this.temp >= seuilBas)) {
           this.r = 0;
-          this.g = parseInt(255 * (1 - (seuilInter1 - this.temp) / (.seuilInter1 - seuilBas)));
+          this.g = parseInt(255 * (1 - (seuilInter1 - this.temp) / (seuilInter1 - seuilBas)));
           this.b = 255;
       }
     }
