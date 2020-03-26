@@ -42,7 +42,6 @@ function CCamera() {
 
 CCamera.prototype.setPixel = function(pixel){
 	this.pixel = pixel;
-
 }
 
 

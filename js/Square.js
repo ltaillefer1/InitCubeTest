@@ -17,6 +17,10 @@ class Square {
     textSize(20);
     text(this.temp, this.x, this.y + 20);    
   }
+
+  setSquareTemp(t){
+    this.temp = t;
+  }
   
   calcColor(){
     let xMax = 255;

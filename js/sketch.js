@@ -4,6 +4,7 @@ var tab = [];
 var x = 10;
 var y = 10;
 var sqWidth = 75;
+var camera;
 
 
 function setup() {
