@@ -1,4 +1,4 @@
-class CMatrice {
+class CMatrice2 {
     constructor(camera) {
 
         this.colonne = 8;
