@@ -524,55 +524,56 @@
             <div>
                 <img id="imgCnes" src="images/cnes.png" alt="cnes" />
             </div>
-            <div data-role="main" data-position="ui-content">
-                <div data-role="controlgroup" data-type="horizontal" data-mini="true">
-                    <a id="target" data-role="button" data-icon="arrow-r" data-inline="true">Valeur d'exemples</a>
-                    <a id="target3" data-role="button" data-icon="arrow-r" data-inline="true">Exemple Matrice Reelle</a>
-                    <a id="target4" data-role="button" data-icon="arrow-r" data-inline="true">Exemple Matrice Reelle Chaude</a>
-                    <a id="target5" data-role="button" data-icon="arrow-r" data-inline="true">Exemple Matrice Reelle Froide</a>
-                </div>
-                <div id="target2">
-                    <input type="range" name="slider-1" id="slider-1" value="0" min="0" max="80" step="1" />
-                </div>
-                <!-- Tableau Fonctionnel -->
-                <!-- Le mode sélecteur de colonne nécessite un tableélément avec deux attributs: data-role="table"et data-mode="columntoggle". Un IDattribut est également requis sur la table pour l'associer au menu contextuel du sélecteur de colonnes. -->
-                <!--class="ui-responsive ui-shadow" = adaptabilité du tableau -->
-                <!--data-column-btn-text= modifier le bouton de selection-->
-                <table data-role="table" data-mode="columntoggle" class="ui-responsive ui-shadow" id="myTable" data-column-btn-text="Parametres">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Instrument</th>
-                            <th data-priority="2">Moyenne des mesures en °C</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Camera Thermique</td>
-                            <td id="temp"></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table id="matrice">
-                    <tbody>
-                        <script type="text/javascript" src="js/sketch.js"></script> 
-                        <script type="text/javascript" src="js/CCamera.js"></script>     
-                        <script type="text/javascript" src="js/CMatrice2.js"></script>
-                        <script type="text/javascript" src="js/Square.js"></script>
-                    </tbody>    
-                </table>
+        </div>
+        <div data-role="main" data-position="ui-content">
+            <div data-role="controlgroup" data-type="horizontal" data-mini="true">
+                <a id="target" data-role="button" data-icon="arrow-r" data-inline="true">Valeur d'exemples</a>
+                <a id="target3" data-role="button" data-icon="arrow-r" data-inline="true">Exemple Matrice Reelle</a>
+                <a id="target4" data-role="button" data-icon="arrow-r" data-inline="true">Exemple Matrice Reelle Chaude</a>
+                <a id="target5" data-role="button" data-icon="arrow-r" data-inline="true">Exemple Matrice Reelle Froide</a>
             </div>
-            <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-fullscreen="false" data-theme="b">
-                <div data-role="navbar" data-grid="" data-iconpos="left">
-                    <ul>
-                        <li><a href="#pageAbout">about</a></li>
-                        <li><a href="#page1">Etat</a></li>
-                        <li><a href="#page2">Synoptique</a></li>
-                        <li><a href="#page3">Commande</a></li>
-                        <li><a href="#page4">Matrice</a></li>
-                    </ul>
-                </div>
+            <div id="target2">
+                <input type="range" name="slider-1" id="slider-1" value="0" min="0" max="80" step="1" />
+            </div>
+            <!-- Tableau Fonctionnel -->
+            <!-- Le mode sélecteur de colonne nécessite un tableélément avec deux attributs: data-role="table"et data-mode="columntoggle". Un IDattribut est également requis sur la table pour l'associer au menu contextuel du sélecteur de colonnes. -->
+            <!--class="ui-responsive ui-shadow" = adaptabilité du tableau -->
+            <!--data-column-btn-text= modifier le bouton de selection-->
+            <table data-role="table" data-mode="columntoggle" class="ui-responsive ui-shadow" id="myTable" data-column-btn-text="Parametres">
+                <thead>
+                    <tr>
+                        <th data-priority="1">Instrument</th>
+                        <th data-priority="2">Moyenne des mesures en °C</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Camera Thermique</td>
+                        <td id="temp"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="matrice">
+                <tbody>
+                    <script type="text/javascript" src="js/sketch.js"></script> 
+                    <script type="text/javascript" src="js/CCamera.js"></script>     
+                    <script type="text/javascript" src="js/CMatrice2.js"></script>
+                    <script type="text/javascript" src="js/Square.js"></script>
+                </tbody>    
+            </table>
+        </div>
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-fullscreen="false" data-theme="b">
+            <div data-role="navbar" data-grid="" data-iconpos="left">
+                <ul>
+                    <li><a href="#pageAbout">about</a></li>
+                    <li><a href="#page1">Etat</a></li>
+                    <li><a href="#page2">Synoptique</a></li>
+                    <li><a href="#page3">Commande</a></li>
+                    <li><a href="#page4">Matrice</a></li>
+                </ul>
             </div>
         </div>
+    </div>        
 </body>
 
 </html>
