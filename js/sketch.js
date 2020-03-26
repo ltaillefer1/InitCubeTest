@@ -12,7 +12,7 @@ function draw() {
     update();
 }
 
-update() {
+function update(){
     $(document).ready(function() { // lancé quand le DOM est initialisé (prêt)  
 
         //à chaque fois que la valeur du slider change, on modifie la couleur de fond de la barre
