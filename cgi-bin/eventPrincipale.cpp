@@ -2,7 +2,6 @@
 using namespace std;
 
 int main(){
-	/*string nomEvent = ["ACK", "mesure", "status", "matrice"];*/
 
 	int premiereValeurMagneto=(rand() % (4800 - (-4800) + 1)) - 4800;
 	int deuxiemeValeurMagneto=(rand() % (4800 - (-4800) + 1)) - 4800;
