@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-    update();
+	setTimeout(update,1000);
 }
 
 function update(){
