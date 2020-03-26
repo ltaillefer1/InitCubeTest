@@ -1,7 +1,12 @@
-createCanvas(600, 600);
+var camerA;
+var matrice;
 
-var camerA = new CCamera();
-var matrice = new CMatrice2(camerA);
+function setup(){
+	createCanvas(600, 600);
+
+	camerA = new CCamera();
+	matrice = new CMatrice2(camerA);
+}
 
 
 $(document).ready(function() { // lancé quand le DOM est initialisé (prêt)  
