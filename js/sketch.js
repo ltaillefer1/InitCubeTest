@@ -29,7 +29,7 @@ function update() {
             var obj = JSON.parse(event.data);
             document.getElementById("temp").innerHTML = obj.temp;
             //document.getElementById("matrice").innerHTML = obj.matrice;
-            test.setPixel(obj.matrice);
+            camerA.setPixel(obj.matrice);
             matrice.update();
             matrice.show();
         });
