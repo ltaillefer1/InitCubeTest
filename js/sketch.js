@@ -1,5 +1,5 @@
 var camera;
-var matrice
+var matrice;
 
 function setup() {
     createCanvas(600, 600);
