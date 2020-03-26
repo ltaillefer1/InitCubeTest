@@ -14,7 +14,7 @@ class CMatrice2 {
             this.tab[i] = [];
             for (let j = 0; j < this.ligne; j++) {
                 this.tab[i][j] = new Square(this.x, this.y, this.sqWidth, this.camera.getPixel(this.numPixel));
-                this.x += sqWidth + 3;
+                this.x += this.sqWidth + 3;
                 this.numPixel++;
             }
             this.y += this.sqWidth + 3;
