@@ -34,7 +34,7 @@ class CMatrice2 {
     update(){
     	for (let i = 0; i < this.colonne; i++) {
             for (let j = 0; j < this.ligne; j++) {
-                this.tab[i][j].setSquareTemp(this.camera.getPixel(numPixel));
+                this.tab[i][j].setSquareTemp(this.camera.getPixel(this.numPixel));
                 this.numPixel++;
             }
         }
