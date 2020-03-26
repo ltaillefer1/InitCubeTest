@@ -1,4 +1,4 @@
-class Initcube {
+class Initcube2 {
     constructor() {
         this.camera = new CCamera();
         this.matrice = new CMatrice2(camera);
