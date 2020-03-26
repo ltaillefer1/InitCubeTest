@@ -4,7 +4,7 @@ var matrice;
 function setup() {
     createCanvas(600, 600);
 
-    camera = new CCamera();
+    test = new CCamera();
     matrice = new CMatrice2(camera);
 }
 
@@ -22,7 +22,7 @@ function update(){
             var obj = JSON.parse(event.data);
             document.getElementById("temp").innerHTML = obj.temp;
             //document.getElementById("matrice").innerHTML = obj.matrice;
-            camera.setPixel(obj.matrice);
+            test.setPixel(obj.matrice);
             matrice.update();
             matrice.show();
         });
