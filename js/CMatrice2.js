@@ -2,7 +2,7 @@ class CMatrice2 {
     constructor(camera) {
 
         this.colonne = 8;
-        this.ligne = 8;
+        this.rows = 8;
         this.tab = [];
         this.x = 10;
         this.y = 10;
@@ -12,7 +12,7 @@ class CMatrice2 {
 
         for (let i = 0; i < this.colonne; i++) {
             this.tab[i] = [];
-            for (let j = 0; j < this.ligne; j++) {
+            for (let j = 0; j < this.rows; j++) {
                 this.tab[i][j] = new Square(this.x, this.y, this.sqWidth, this.camerA.ExGetPixel(this.numPixel));
                 this.x += this.sqWidth + 3;
                 this.numPixel++;
@@ -25,7 +25,7 @@ class CMatrice2 {
 
     show() {
         for (let i = 0; i < this.colonne; i++) {
-            for (let j = 0; j < this.ligne; j++) {
+            for (let j = 0; j < this.rows; j++) {
                 this.tab[i][j].show();
             }
         }
@@ -33,7 +33,7 @@ class CMatrice2 {
 
     update(){
     	for (let i = 0; i < this.colonne; i++) {
-            for (let j = 0; j < this.ligne; j++) {
+            for (let j = 0; j < this.rows; j++) {
                 this.tab[i][j].setSquareTemp(this.camerA.ExGetPixel(this.numPixel));
                 this.numPixel++;
             }
