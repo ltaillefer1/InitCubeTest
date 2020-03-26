@@ -6,7 +6,7 @@ class Square {
     this.r = 10;
     this.g = 10;
     this.b = 10;
-    this.temp = round(temp);
+    this.temp = temp;
   }
 
   show() {
