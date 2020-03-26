@@ -1,30 +1,20 @@
-var camerA;
-var matrice;
+createCanvas(600, 600);
 
-function setup() {
-    createCanvas(600, 600);
+var camerA = new CCamera();
+var matrice = new CMatrice2(camerA);
 
-    camerA = new CCamera();
-    matrice = new CMatrice2(camerA);
-}
 
-function draw() {
-	setTimeout(update,1000);
-}
+$(document).ready(function() { // lancé quand le DOM est initialisé (prêt)  
 
-function update(){
-    $(document).ready(function() { // lancé quand le DOM est initialisé (prêt)  
-
-        //à chaque fois que la valeur du slider change, on modifie la couleur de fond de la barre
-        //en fonction de la valeur du slider.
-        var source = new EventSource("../cgi-bin/cubeEventServer.cgi");
-        source.addEventListener("matrice", function(event) {
-            var obj = JSON.parse(event.data);
-            document.getElementById("temp").innerHTML = obj.temp;
-            //document.getElementById("matrice").innerHTML = obj.matrice;
-            test.setPixel(obj.matrice);
-            matrice.update();
-            matrice.show();
-        });
+    //à chaque fois que la valeur du slider change, on modifie la couleur de fond de la barre
+    //en fonction de la valeur du slider.
+    var source = new EventSource("../cgi-bin/cubeEventServer.cgi");
+    source.addEventListener("matrice", function(event) {
+        var obj = JSON.parse(event.data);
+        document.getElementById("temp").innerHTML = obj.temp;
+        //document.getElementById("matrice").innerHTML = obj.matrice;
+        test.setPixel(obj.matrice);
+        matrice.update();
+        matrice.show();
     });
-}
+});
