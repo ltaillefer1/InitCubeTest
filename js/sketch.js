@@ -3,7 +3,7 @@ var matrice;
 var nbFrame;
 
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(700, 700);
     frameRate(30);
     nbFrame = 0;
 
