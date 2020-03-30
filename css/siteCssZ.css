@@ -46,7 +46,7 @@
 
 /* ----------------------- Zone Etat ----------------------- */
 
- @mixin noMarge(){
+ @mixin noMarge() {
     margin: 0px;
     padding: 0px;
  }
@@ -57,7 +57,9 @@ h2{
     color: #555;
     font-weight: normal;
     font-size: 28px;
-    @include noMarge();
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 0;
 }
 
 #bandeauInfoUtile{
@@ -70,7 +72,9 @@ h2{
     border: 0px;
     border-collapse: collapse;
     width: 100%;
-    @include noMarge();
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 0;
 }
 
 
