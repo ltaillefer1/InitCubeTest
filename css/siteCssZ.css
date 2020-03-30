@@ -34,8 +34,12 @@ img {
     position: fixed;
 }
 
+#header{
+    position: relative;
+}
+
 #body{
-    position: absolute;
+    position: relative;
 }
 
 #footer{
