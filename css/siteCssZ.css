@@ -45,7 +45,7 @@
 
 #menuFooter>li{
     display: inline-block;
-    width: 24%;
+    text-align: center;
 }
 
 /* ----------------------- Zone About ----------------------- */
