@@ -1,19 +1,10 @@
-/*
-    ----------- Charte des couleurs --------------
-    #feedd8     crème très clair
-    #ffcf91     fond de page
-    #333        gris : pour les ombres
-    #5c3400     marron foncé : les boutons et les encadrements
-    #f6b26b     marron moyen : entête et pied de page
-    #fdf1e3     crème clair : les textes des boutons
-    #999        gris : pour les textes des boutons grisés
-    green       vert : les textes des états stables
-    #a05000     marron : les textes en action
-    red         rouge : les textes des états en panne
-    #43382e     le control video
-    #f7b074     header & footer (couleur du fond))
-       
-/* toutes les images ont une position fixe */
+:root{
+    font-size: 16px;
+    font-family: 'Titillium Web';
+    --text-primary: #555;
+    --bg-primary: #252525;
+    --bg-secondary: #2a2a2a;
+}
 
 
 /* ----------------------- Zone HTML ----------------------- */
@@ -36,10 +27,14 @@
 
 #body{
     position: relative;
+    margin-bottom: 5rem;
 }
 
-#footer{
-    position: fixed;
+.navbar{
+   height: 5rem;
+   width: 100vh; 
+   position: fixed;
+   background-color: var(--bg-primary);
 }
 
 /* ----------------------- Zone About ----------------------- */

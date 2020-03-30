@@ -280,7 +280,6 @@ h1 {
 
 /* ici on change la valeur de max-height au :hover */
 #menu>li:hover ul {
-
     max-height: 13em;
 }
 
