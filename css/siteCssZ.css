@@ -49,10 +49,21 @@
 h2{
     margin: 0px;
     padding: 0px;
+    border: 0px;
+    display: block;
 }
 
 #bandeauInfoUtile{
     box-sizing: border-box;
+}
+
+#tableEtat{
+    display: table;
+    border: 0px;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 
