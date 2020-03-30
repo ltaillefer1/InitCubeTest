@@ -58,6 +58,7 @@ h2{
 }
 
 #tableEtat{
+    background-color:#2a2a2a; 
     display: table;
     border: 0px;
     border-collapse: collapse;
