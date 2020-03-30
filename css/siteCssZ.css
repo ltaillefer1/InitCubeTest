@@ -46,11 +46,6 @@
 
 /* ----------------------- Zone Etat ----------------------- */
 
- @mixin noMarge() {
-    margin: 0px;
-    padding: 0px;
- }
-
 h2{
     border: 0px;
     display: block;
@@ -59,14 +54,14 @@ h2{
     font-size: 28px;
     margin: 0px;
     padding: 0px;
-    text-shadow: 0;
+    text-shadow: 0 /*{b-page-shadow-x}*/ 1px /*{b-page-shadow-y}*/ 0 /*{b-page-shadow-radius}*/ #111 /*{b-page-shadow-color}*/;
 }
 
 #bandeauInfoUtile{
     box-sizing: border-box;
 }
 
-#tableEtat{
+/* #tableEtat{
     background-color:#2a2a2a; 
     display: table;
     border: 0px;
@@ -74,8 +69,8 @@ h2{
     width: 100%;
     margin: 0px;
     padding: 0px;
-    text-shadow: 0 /*{b-page-shadow-x}*/ 1px /*{b-page-shadow-y}*/ 0 /*{b-page-shadow-radius}*/ #111 /*{b-page-shadow-color}*/;
-}
+    text-shadow: 0 {b-page-shadow-x} 1px {b-page-shadow-y} 0 {b-page-shadow-radius} #111 {b-page-shadow-color};
+} */
 
 
 /* ----------------------- Zone Synoptique ----------------------- */
