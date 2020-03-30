@@ -43,12 +43,9 @@
     width: 100%;
 }
 
-#menuFooter{
-    width: 100%;
-}
-
 #menuFooter>li{
     display: inline-block;
+    width: 25%;
 }
 
 /* ----------------------- Zone About ----------------------- */
