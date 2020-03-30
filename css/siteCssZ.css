@@ -40,12 +40,6 @@
 
 #footer{
     position: fixed;
-    width: 100%;
-}
-
-#menuFooter>li{
-    display: inline-block;
-    text-align: center;
 }
 
 /* ----------------------- Zone About ----------------------- */
