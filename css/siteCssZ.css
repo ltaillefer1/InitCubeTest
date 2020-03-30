@@ -46,11 +46,18 @@
 
 /* ----------------------- Zone Etat ----------------------- */
 
-h2{
+ @mixin noMarge(){
     margin: 0px;
     padding: 0px;
+ }
+
+h2{
+    @include noMarge();
     border: 0px;
     display: block;
+    color: #555;
+    font-weight: normal;
+    font-size: 28px;
 }
 
 #bandeauInfoUtile{
