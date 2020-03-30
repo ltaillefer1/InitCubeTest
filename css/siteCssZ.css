@@ -42,6 +42,14 @@
     position: fixed;
 }
 
+#menuFooter{
+    width: 100%;
+}
+
+#menuFooter>li{
+    display: inline-block;
+}
+
 /* ----------------------- Zone About ----------------------- */
 
 /* ----------------------- Zone Etat ----------------------- */
@@ -69,11 +77,6 @@ h2{
     width: 100%;
     margin: 0px;
     padding: 0px;
-}
-
-#menuFooter>li{
-    display: inline-block;
-    width: 100%;
 }
 
 
