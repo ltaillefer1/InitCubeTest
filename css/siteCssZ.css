@@ -52,12 +52,12 @@
  }
 
 h2{
-    @include noMarge();
     border: 0px;
     display: block;
     color: #555;
     font-weight: normal;
     font-size: 28px;
+    @include noMarge();
 }
 
 #bandeauInfoUtile{
@@ -69,9 +69,8 @@ h2{
     display: table;
     border: 0px;
     border-collapse: collapse;
-    margin: 0px;
-    padding: 0px;
     width: 100%;
+    @include noMarge();
 }
 
 
