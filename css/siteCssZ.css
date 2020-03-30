@@ -51,6 +51,11 @@ h2{
     padding: 0px;
 }
 
+#bandeauInfoUtile{
+    box-sizing: border-box;
+}
+
+
 /* ----------------------- Zone Synoptique ----------------------- */
 
 /* ----------------------- Zone Camera ----------------------- */
