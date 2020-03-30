@@ -2,17 +2,17 @@
 
 <html>
 	<head>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
-    <link rel="stylesheet" href="css/siteCss.css">
-    <link href="css/jquery-ui.css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="js/p5.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-    <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+	    <link rel="stylesheet" href="css/siteCssZ.css">
+	    <link href="css/jquery-ui.css" rel="stylesheet">
+	    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	    <script type="text/javascript" src="js/p5.js"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	    <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+	    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
 
 	 <!-- 
@@ -22,11 +22,11 @@
         -->
 	
 	<div data-role="page" id="pageEtat">
-		<div id="header">
+		<div id="header" class="general">
 			<img id="imgCnes" src="images/cnes.png" />	
 		</div>
 
-		<div id="body">
+		<div id="body" class="general">
 			<div id="bandeauInfoUtile">
 				<h2>Centre de contrôle des missions</h2>
 				<table id="tableEtat">
@@ -61,14 +61,13 @@
 				<canvas id="myChart"></canvas>
 			</div>
 		</div>
-		<div id="footer">
+		<div id="footer" class="general">
 			<div id="navbar">
 				<ul>
                     <li><a href="#pageAbout">About</a></li>
                     <li><a href="#pageEtat">Etat</a></li>
                     <li><a href="#pageSynoptique">Synoptique</a></li>
                     <li><a href="#pageCommande">Commande</a></li>
-                    <li><a href="#pageMatrice">Matrice</a></li>
                 </ul>
 			</div>
 		</div>
@@ -81,17 +80,18 @@
         -->
 	
 	<div data-role="page" id="pageSynoptique">
-		<div id="header">
+		<div id="header" class="general">
 			<img id="imgCnes" src="images/cnes.png" />	
 		</div>
 
-		<div id="body">
+		<div id="body" class="general">
 			<ul id="navSyno">
 	            <li><a>Instrument</a>
 	                <ul>
 	                    <li><a href="#pageSynoptique">CubeSat</a></li>
 	                    <li><a href="#pageMagnetometre">Magnétomètre</a></li>
 	                    <li><a href="#pageCamera">Caméra</a></li>
+	                    <li><a href="#pageMatrice">Matrice</a></li>
 	                </ul>
 	            </li>
         	</ul>
@@ -101,14 +101,13 @@
         	</div>
 		</div>
 
-		<div id="footer">
+		<div id="footer" class="general">
 			<div id="navbar">
 				<ul>
                     <li><a href="#pageAbout">About</a></li>
                     <li><a href="#pageEtat">Etat</a></li>
                     <li><a href="#pageSynoptique">Synoptique</a></li>
                     <li><a href="#pageCommande">Commande</a></li>
-                    <li><a href="#pageMatrice">Matrice</a></li>
                 </ul>
 			</div>
 		</div>
@@ -121,11 +120,11 @@
         -->
 
     <div data-role="page" id="pageCamera">
-    	<div id="header">
+    	<div id="header" class="general">
 			<img id="imgCnes" src="images/cnes.png" />	
 		</div>
 
-		<div id="body">
+		<div id="body" class="general">
 			<ul id="navSyno">
 	            <li><a>Instrument</a>
 	                <ul>
@@ -171,14 +170,13 @@
 	        </table>
 		</div>
 
-		<div id="footer">
+		<div id="footer" class="general">
 			<div id="navbar">
 				<ul>
                     <li><a href="#pageAbout">About</a></li>
                     <li><a href="#pageEtat">Etat</a></li>
                     <li><a href="#pageSynoptique">Synoptique</a></li>
                     <li><a href="#pageCommande">Commande</a></li>
-                    <li><a href="#pageMatrice">Matrice</a></li>
                 </ul>
 			</div>
 		</div>
@@ -191,11 +189,11 @@
         -->
 	
 	<div data-role="page" id="pageCamera">
-		<div id="header">
+		<div id="header" class="general">
 			<img id="imgCnes" src="images/cnes.png" />	
 		</div>
 
-		<div id="body">
+		<div id="body" class="general">
 			<ul id="navSyno">
 	            <li><a>Instrument</a>
 	                <ul>
@@ -228,14 +226,13 @@
         	</div>
 		</div>
 
-		<div id="footer">
+		<div id="footer" class="general">
 			<div id="navbar">
 				<ul>
                     <li><a href="#pageAbout">About</a></li>
                     <li><a href="#pageEtat">Etat</a></li>
                     <li><a href="#pageSynoptique">Synoptique</a></li>
                     <li><a href="#pageCommande">Commande</a></li>
-                    <li><a href="#pageMatrice">Matrice</a></li>
                 </ul>
 			</div>
 		</div>
@@ -247,11 +244,11 @@
             ======================================
         -->
     <div data-role="page" id="pageCommande">
-    	<div id="header">
+    	<div id="header" class="general">
 			<img id="imgCnes" src="images/cnes.png" />	
 		</div>
 
-		<div id="body">
+		<div id="body" class="general">
 			<form name="COMMANDE" action="/cgi-bin/c2.cgi" method="get">
 	            <legend>Veuillez sélectionner vos commandes</legend>
 	            <div>
@@ -283,14 +280,13 @@
 		</div>
 
 
-		<div id="footer">
+		<div id="footer" class="general">
 			<div id="navbar">
 				<ul>
                     <li><a href="#pageAbout">About</a></li>
                     <li><a href="#pageEtat">Etat</a></li>
                     <li><a href="#pageSynoptique">Synoptique</a></li>
-                    <li><a href="#pageCommande">Commande</a></li>
-                    <li><a href="#pageMatrice">Matrice</a></li>
+                    <li><a href="#pageCommande">Commande</a></li>     
                 </ul>
 			</div>
 		</div>
@@ -303,11 +299,21 @@
         -->
 	
 	<div data-role="page" id="pageMatrice">
-		<div id="header">
-			<img id="imgCnes" src="images/cnes.png" />	
+		<div id="header" class="general">
+			<img id="imgCnes" src="images/cnes.png"/>	
 		</div>
 		
-		<div id="body">
+		<div id="body" class="general">
+			<ul id="navSyno">
+	            <li><a>Instrument</a>
+	                <ul>
+	                    <li><a href="#pageSynoptique">CubeSat</a></li>
+	                    <li><a href="#pageMagnetometre">Magnétomètre</a></li>
+	                    <li><a href="#pageCamera">Caméra</a></li>
+	                </ul>
+	            </li>
+        	</ul>
+
 			<table id="tableMatrice">
 				<thead>
 					<tr>
@@ -322,24 +328,21 @@
                     </tr>
 				</tbody>
 			</table>
-		</div>
-		<div id="matrice">
 			<!-- <script type="text/javascript" src="js/sketch.js"></script> 
-                <script type="text/javascript" src="js/CCamera.js"></script>     
-                <script type="text/javascript" src="js/CMatrice2.js"></script>
-                <script type="text/javascript" src="js/Square.js"></script> -->
-            </tbody>    
+            <script type="text/javascript" src="js/CCamera.js"></script>     
+            <script type="text/javascript" src="js/CMatrice2.js"></script>
+            <script type="text/javascript" src="js/Square.js"></script> -->
 		</div>
+		
 
 
-		<div id="footer">
+		<div id="footer" class="general">
 			<div id="navbar">
 				<ul>
                     <li><a href="#pageAbout">About</a></li>
                     <li><a href="#pageEtat">Etat</a></li>
                     <li><a href="#pageSynoptique">Synoptique</a></li>
                     <li><a href="#pageCommande">Commande</a></li>
-                    <li><a href="#pageMatrice">Matrice</a></li>
                 </ul>
 			</div>
 		</div>
