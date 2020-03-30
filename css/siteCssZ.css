@@ -73,6 +73,7 @@ h2{
 
 #menuFooter>li{
     display: inline-block;
+    width: 100%;
 }
 
 
