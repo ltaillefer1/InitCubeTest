@@ -6,7 +6,7 @@ class CMatrice2 {
         this.tab = [];
         this.x = 10;
         this.y = 10;
-        this.sqWidth = 75;
+        this.sqWidth = 60;
         this.camerA = camera;
         this.numPixel = 0;
 
@@ -39,5 +39,9 @@ class CMatrice2 {
             }
         }
         this.numPixel = 0;
+    }
+
+    getArray(){
+        return this.tab;
     }
 }

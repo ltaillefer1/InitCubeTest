@@ -1,9 +1,12 @@
 var camerA;
 var matrice;
 var nbFrame;
+var cnv;
 
 function setup() {
-    createCanvas(700, 700);
+    cnv = createCanvas(600, 600);
+    cnv.parent('matriceP5');
+    cnv.position(300,0,'z-index', '-2');
     frameRate(30);
     nbFrame = 0;
 
@@ -34,4 +37,4 @@ function update() {
             matrice.show();
         });
     });
-}
+}q<
